@@ -1,0 +1,98 @@
+header#main-header {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    z-index: 99;
+    overflow: auto;
+    /* margin-bottom: 30px; */
+}
+h1, h2, h5 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+body {
+    background-color:#666;
+}
+
+h1 {
+    color:#4aaaa5;
+    font-size:1.8em;
+}
+a.navbar-brand {
+    /* width: 4em; */
+    font-weight: 700;
+    background-color: #4aaaa5;
+    color: #fff!important;
+    text-align: center;
+    font-size: 2.8em;
+    padding: .3em .7em;
+}
+p a {
+    /* padding: 5px; */
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 18px;
+    background-color: #4aaaa5;
+    padding: 0px 6px;
+    color: #fff;
+    line-height:2em;
+    text-decoration:none;
+}
+p a:hover {
+    background-color: #4681B7;
+    text-decoration:none;
+    color:#fff;
+}
+
+/* Main body styling */
+
+#main-body {
+    background: url(../images/dust-scratches.png) repeat;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.row.main-body-content {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+.bio-image {
+    height:200px;
+}
+
+
+.main-body-content h1 {
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+}
+
+/* main body - Portfolio */
+.card-img-overlay {
+    position: absolute;
+    top: inherit;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    padding: 1.25rem;
+    text-align: center;
+    background-color: #4aaaa5;
+    line-height: 1.25em;
+}
+.card-img-overlay h5 {
+    margin:0;
+}
+.card {
+    border:none;
+}
+
+/* footer design */
+
+footer.container-fluid {
+    background-color: #666;
+    color: #ddd;
+    border-top: #4aaaa5 2px solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: .7em;
+}

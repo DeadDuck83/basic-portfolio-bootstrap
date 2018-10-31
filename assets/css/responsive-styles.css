@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+    a.navbar-brand {
+        width: 100%;
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+    .navbar-toggler {
+        cursor: pointer;
+        margin: 0 auto 10px;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
