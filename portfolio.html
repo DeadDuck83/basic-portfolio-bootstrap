@@ -12,6 +12,10 @@
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"> -->
+
+
     <!-- site css -->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/responsive-styles.css">
@@ -52,51 +56,55 @@
                 <div class="col-12 px-0 mx-0">
                     <h1 class="pb-4 mb-4">My Portfolio</h1>
                 </div>
-                <div class="col-4  mb-4">
-                    <div class="card bg-dark text-white p-0">
+                <div class="col-sm-6 col-md-4  mb-4 animated bounce">
+                    <a data-toggle="modal" data-target="#webModal"><div class="card bg-dark text-white p-0">
                         <img class="card-img" src="./assets/images/web-design.jpg" alt="Card image">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Web Design</h5>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="col-4  mb-4">
-                    <div class="card bg-dark text-white p-0">
+                <div class="col-sm-6 col-md-4  mb-4">
+                    <a data-toggle="modal" data-target="#printModal"><div class="card bg-dark text-white p-0">
                         <img class="card-img" src="./assets/images/print-design.jpg" alt="Card image">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Print Design</h5>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="col-4  mb-4">
-                    <div class="card bg-dark text-white p-0">
+                <div class="col-sm-6 col-md-4  mb-4">
+                    <a data-toggle="modal" data-target="#posterModal"><div class="card bg-dark text-white p-0">
                         <img class="card-img" src="./assets/images/poster-design.jpg" alt="Card image">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Poster Design</h5>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="col-4  mb-4">
-                    <div class="card bg-dark text-white p-0">
+                <div class="col-sm-6 col-md-4  mb-4">
+                    <a data-toggle="modal" data-target="#illustrationModal"><div class="card bg-dark text-white p-0">
                         <img class="card-img" src="./assets/images/illustration.jpg" alt="Card image">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Illustrations</h5>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="col-4  mb-4">
-                    <div class="card bg-dark text-white p-0">
+                <div class="col-sm-6 col-md-4  mb-4">
+                    <a data-toggle="modal" data-target="#infographModal"><div class="card bg-dark text-white p-0">
                         <img class="card-img" src="./assets/images/infograph-design.jpg" alt="Card image">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Infographics</h5>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
 
 
             </div>
         </div>
     </section>
+
+
+
+
     <footer class="container-fluid">
         <div class="container">
             <div class="row" class="text-center">
@@ -114,5 +122,98 @@
         crossorigin="anonymous"></script>
 
 </body>
+
+<!-- Testing some modal stuff -->
+<secton class="test">
+    
+    <!-- Modals -->
+
+    <!-- Modal Web Design -->
+    <div class="modal fade" id="webModal" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Web Design</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img class="img-fluid" src="./assets/images/web-design.jpg" alt="Card image">
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    <!-- Modal Print Design -->
+    <div class="modal fade" id="printModal" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Print Design</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="./assets/images/print-design.jpg" alt="Card image">
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        <!-- Modal Poster Design -->
+    <div class="modal fade" id="posterModal" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Poster Design</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="./assets/images/poster-design.jpg" alt="Card image">
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        <!-- Modal Illustrations -->
+    <div class="modal fade" id="illustrationModal" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Illustrations</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="./assets/images/illustration.jpg" alt="Card image">
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        <!-- Modal infographs -->
+    <div class="modal fade" id="infographModal" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Infograph Design</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img class="img-fluid" src="./assets/images/infograph-design.jpg" alt="Card image">
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        
+</secton>
 
 </html>
